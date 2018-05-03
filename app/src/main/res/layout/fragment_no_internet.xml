@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/no_connection_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/no_connection_ic_margin_top"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/ic_cloud_off" />
+
+        <TextView
+            android:id="@+id/can_not_load_results_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_connection_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/can_not_load_results_text_margin_top"
+            android:text="@string/can_not_load_results"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/subheading_text_size" />
+
+        <TextView
+            android:id="@+id/retry_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/can_not_load_results_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/try_again_text_margin_top"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/clickable_text_padding"
+            android:text="@string/try_again"
+            android:textAllCaps="false"
+            android:textColor="@color/accent"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/subheading_text_size" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- MoviesListFragment -->
+    <dimen name="poster_corner_radius">4dp</dimen>
+    <dimen name="poster_corner_margin">0dp</dimen>
+    <dimen name="movie_poster_margin_top">10dp</dimen>
+
+    <!-- NoInternetFragment -->
+    <dimen name="no_connection_ic_margin_top">180dp</dimen>
+    <dimen name="try_again_text_margin_top">15dp</dimen>
+    <dimen name="can_not_load_results_text_margin_top">15dp</dimen>
+
+    <!-- Generic -->
+    <dimen name="head_text_size">22sp</dimen>
+    <dimen name="subheading_text_size">16sp</dimen>
+    <dimen name="clickable_text_padding">5dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="recycler_view_top_and_bottom_padding">4dp</dimen>
+    <dimen name="distance_between_recycler_view_items">4dp</dimen>
+    <dimen name="no_results_found_text_margin_top">10dp</dimen>
+</resources>
